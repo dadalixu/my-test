@@ -1,0 +1,11 @@
+# 虚拟环境不要提交到 git
+.venv/
+__pycache__/
+*.pyc
+
+# job_agent 的运行数据与密钥
+job_agent/data/
+.env
+
+# 生成的记忆总览页面（随时可以重新生成）
+记忆总览.html

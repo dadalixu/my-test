@@ -1,0 +1,8 @@
+# job_agent 需要的依赖
+# 安装： .venv\Scripts\python.exe -m pip install -r job_agent\requirements.txt
+
+langgraph>=0.2,<2
+langgraph-checkpoint-sqlite>=2.0
+langchain-core>=0.3
+langchain-openai>=0.2
+tavily-python>=0.5      # 岗位搜索靠它联网，不装就没法搜岗位
